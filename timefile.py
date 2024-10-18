@@ -1,3 +1,4 @@
+#заходим на страницу Солнечная система и Enter перебираем параграфы
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
