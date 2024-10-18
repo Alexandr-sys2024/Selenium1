@@ -1,3 +1,4 @@
+#рандомные статьи из википедии
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
@@ -18,4 +19,7 @@ print(hatnotes)
 hatnote = random.choice(hatnotes)
 link = hatnote.find_element(By.TAG_NAME, "a").get_attribute("href")
 browser.get(link)
+time.sleep(5)
+
+
 
